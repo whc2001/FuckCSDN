@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         FUCK CSDN
-// @namespace    [TODO]
+// @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  CSDN 你🐴炸了
 // @author       whc2001
@@ -32,6 +32,7 @@ var timer = setInterval(function()
     content = document.getElementById("content_views").cloneNode(true);
     if(content !== null)
     {
+        content.style.padding = "10px";
         html.removeChild(body);
         body = document.createElement("body");
         body.appendChild(content);
