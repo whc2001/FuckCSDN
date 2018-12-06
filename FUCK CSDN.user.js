@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FUCK CSDN
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.01
 // @description  CSDN 你🐴炸了
 // @author       whc2001
 // @match        blog.csdn.net/*/article/details/*
